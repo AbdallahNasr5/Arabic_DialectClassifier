@@ -6,7 +6,7 @@ The dataset contains a wide range of country-level Arabic dialects retrieved fro
 resultant dataset contains 540k tweets from 2,525 users who are evenly distributed across 18 Arab countries.
 
 ## Data Pre-processing
-Removing the username tag,emojis,URL,punctuation using Regular Expression, and emoji library, Removing stop words from the text to elemenate the low-level information and give the model the ability to focus on the important information using NLTK library.
+Removing the username tag,emojis,URL,punctuation using Regular Expression, and emoji library, Removing stop words from the text to eliminate the low-level information and give the model the ability to focus on the important information using NLTK library.
 
 ## Machine Learning Model [Link to notebook](https://github.com/AbdallahNasr5/Arabic_DialectClassifier/blob/main/Arabic_DialectClassifier/MachineLearning_Model.ipynb)
 After training multiple models to choose the final model to train the whole data on, LinearSVC shined the most out of all other models.
