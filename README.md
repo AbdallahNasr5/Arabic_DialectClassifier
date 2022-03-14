@@ -13,7 +13,7 @@ After training multiple models to choose the final model to train the whole data
 -Using TF-IDF vectorization to transform the data with respect to word count and importance.
 
 ## DeepLearning models using keras embeddings [link to notebook](https://github.com/AbdallahNasr5/Arabic_DialectClassifier/blob/main/Arabic_DialectClassifier/DeepLearning_Model.ipynb)
-In this section we used 2 architictures, CNN and CNN&LSTM pipeline.
+In this section we used 2 architectures, CNN and CNN&LSTM pipeline.
 The CNN model outperformed the CNN&LSTM model for this task with the same number of parameters.
 
 ## DeepLearning model with word2vector embedding [link to notebook](https://github.com/AbdallahNasr5/Arabic_DialectClassifier/blob/main/Arabic_DialectClassifier/Word_To_Vector_DLModel.ipynb)
