@@ -31,7 +31,7 @@ def DialectClassifier_DL(Text: str):
                 "15": 'SD',
                 "16": 'AE',
                 "17": 'BH'}
-        filename = 'LSTM_CNN_MODEL.h5'
+        filename = 'CNN_MODEL.h5'
         new_model = keras.models.load_model(filename)
         loaded_model = keras.models.load_model(filename)
         tok = pickle.load(open("tok_DL.pkl", 'rb'))
