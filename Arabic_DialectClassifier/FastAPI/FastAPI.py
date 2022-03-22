@@ -11,7 +11,7 @@ from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 app = FastAPI()
 
-@app.post('/CNN_LSTM')
+@app.post('/CNN')
 def DialectClassifier_DL(Text: str):
         dic = { "0": 'IQ',
                 "1": 'LY',
