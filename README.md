@@ -23,5 +23,6 @@ In this notebook we trained a word2vector model and used it in the embedding lay
 The model that outperformed is the LinearSVC model with the highest f1 scores and accuracy score of 53%
 
 ## FastApi [link to script](https://github.com/AbdallahNasr5/Arabic_DialectClassifier/blob/main/Arabic_DialectClassifier/FastAPI/FastAPI.py)
-To use this api all you need to do is download the LinearSVC pretrained model [pre-trained model](https://drive.google.com/file/d/14fPruMC10ISRoGM11tmABHEouKA8YRG5/view?usp=sharing)
-and the tf-idf trained on the dataset corpus [tfidf_vectorizer](https://drive.google.com/file/d/1Nr3ia7IavWhNN8V-2VbjX1CzlR96n24Y/view?usp=sharing)
+To use this api all you need to do is download the LinearSVC pretrained model [pre-trained model](https://drive.google.com/file/d/14fPruMC10ISRoGM11tmABHEouKA8YRG5/view?usp=sharing),and the tf-idf trained on the dataset corpus [tfidf_vectorizer](https://drive.google.com/file/d/1Nr3ia7IavWhNN8V-2VbjX1CzlR96n24Y/view?usp=sharing), and the CNN pretrained model [pre-trained model](https://drive.google.com/file/d/1kaIvOuxMJPn1qM_NrDTqvcITmQ1FFlXT/view?usp=sharing), and it's pre-trained tokinzer [pre-trained tokinzer](https://drive.google.com/file/d/1DWbW7tdmnBLQ5FD94amZfEgZ6CgO0erJ/view?usp=sharing)
+
+
